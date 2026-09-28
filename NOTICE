@@ -1,0 +1,8 @@
+This repository contains original study notes plus one upstream public
+codebase included as a git submodule.
+
+- docs/* and README.md: Apache-2.0, Yang1999code
+- third_party/hil-serl: rail-berkeley/hil-serl, Apache-2.0
+
+The Feishu course page is cited as a source, not copied in full.
+This repository does not claim a real-robot reproduction.
