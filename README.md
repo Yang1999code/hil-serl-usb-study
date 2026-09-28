@@ -115,16 +115,12 @@ bash run_learner.sh
 ## 克隆
 
 ```bash
-git clone --recurse-submodules https://github.com/Yang1999code/hil-serl-usb-study.git
+git clone https://github.com/Yang1999code/hil-serl-usb-study.git
 ```
 
-如果已经 clone 过主仓库：
+官方 `hil-serl` 已经按当前 `main` 完整拷进 `third_party/hil-serl`，共 154 个文件，对应提交 `c32939bccb65f3b8c43a9f9add3d322d4ab0264a`。不是 submodule，GitHub 上可以直接点开源码。
 
-```bash
-git submodule update --init --depth 1
-```
-
-上游代码在 `third_party/hil-serl`。不要把子模块历史当成我写的代码。
+不要把 `third_party/hil-serl` 当成我写的代码。
 
 更细的阅读记录：
 
